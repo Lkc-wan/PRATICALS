@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title></title>
+    <script type ="text/javascript">
+        function checkGender(){
+            if(document.getElementById('male').checked)
+            alert("you have selected male.");
+            else
+            alert("you have selected female.");
+        }
+
+        
+    </script>
+</head>
+<body style="text-align: center;">
+    <h1> Check seleted Radio button value using Javascript</h1>
+    <b>Choose Gender</b>
+    <input type="radio" name="gender" id="male" value="Male"/>Male
+    <input type="radio" name="gender" id="female" value="Female"/>Female
+    <br><br>
+    <input type="button" name="Check Gender" onclick="checkGender()"/>
+
+</body>
+</html>

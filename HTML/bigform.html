@@ -1,0 +1,125 @@
+
+<html>
+<head>
+  <title>Form Example</title>
+  <style>
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif, sans-serif,;
+      text-align: center;
+      background-color: #5e9b09;
+}
+    
+    
+    form {
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+      background-image: url('');
+      background-size: cover;
+      background-position: center; 
+      background-color: #db0707;
+      border: 5px solid #d0c904;
+      border-radius: 50px;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+    }
+
+    
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+      text-align:;
+    }
+    
+    
+    input[type="text"], input[type="number"], input[type="date"], input[type="password"], input[type="email"], input[textarea] {
+      width: 90%;
+      height: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 55px;
+    }
+    
+    
+    input[type="checkbox"], input[type="radio"] {
+      margin-right: 10px;
+    }
+    
+    
+    input[type="reset"], input[type="submit"] {
+      width: 100px;
+      height: 40px;
+      margin-top: 20px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #4CAF50;
+      color: #fbfbfb;
+      cursor: pointer;
+    }
+    
+    input[type="reset"]:hover, input[type="submit"]:hover {
+      background-color: #e608c9;
+    }
+  </style>
+</head>
+<body>
+  <h1>FORM TAG</h1>
+  <form>
+    </label>
+    <h2>Personal Details</h2>
+    <div style="display: flex; margin-bottom: 10px;">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    </div>
+    <div style="display: flex; margin-bottom: 10px;">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    </div>
+    <div style="display: flex; margin-bottom: 10px;">
+    <label for="adres">Address</label>
+    <textarea rows="3" cols="-30" name="adres"></textarea><br><br>
+    </div>
+    <div style="display: flex; margin-bottom: 10px;">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email"><br><br>
+    </div>
+    <div style="display: flex; margin-bottom: 10px;">
+    <label for="pass">Password</label>
+    <input type="password" id="pass" name="pass"><br><br>
+    </div>
+    <h2>Gender</h2>
+    <label>
+      <input type="radio" id="male" name="gender">
+      Male
+      <input type="radio" id="female" name="gender">
+      Female
+    </label>
+    <h2>Hobbies</h2>
+    <label>
+      <input type="checkbox" id="cricket" name="hobby">
+      Cricket
+      <input type="checkbox" id="football" name="hobby">
+      Football
+      <input type="checkbox" id="hockey" name="hobby">
+      Hockey
+    </label>
+    <h2>City</h2>
+    <select id="city" name="city">
+      <option value="">Select City</option>
+      <option value="Vadodara">Vadodara</option>
+      <option value="Ahmedabad">Ahmedabad</option>
+      <option value="Surat">Surat</option>
+      <option value=""></option>
+    </select><br><br>
+    </label>
+    <label for="file">Attach File:</label>
+      <input type="file" id="file" name="file"><br><br>
+      <button type="submit">Submit</button>
+      <button type="reset">Cancel</button>
+      
+    </form>
+</body>
+</html>

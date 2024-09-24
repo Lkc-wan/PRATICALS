@@ -1,0 +1,33 @@
+this tag used for apply a text in heading format h1 tag define a heading in big size then after h2,h3......h6 decrease the size of heading
+
+<!--sdgfjhs--> this tag also know as comment tag user understanding but it cannot be execute during runtime 
+
+<font tag> this tag used to apply different type of formatting on specific text or font
+        
+
+# font tag provide three property
+
+.color
+.size
+.face
+
+ex= <font size = '19' color='red' face='navr'
+
+<abbr title=” “> The abbreviation tag in HTML is used to define the abbreviation or short form of an element
+
+<b> The bold tag in HTML is used to specify the bold text without any extra importance
+
+<u> The underline tag in HTML stands for underline, and it’s used to underline the text enclosed within the <u> tag.
+
+<sub> The sub-tag is used to add a subscript text to the HTML document
+
+<sup> The sup-tag is used to add superscript text to the HTML document.
+
+<img src=”url” alt=”some_text” width=”” height=””>  HTML Image, how to add the image in HTML. In earlier times, the web pages only contains textual content, which made them appear quite boring and uninteresting.
+
+#img tag provide 4 property
+
+.src source or url of specific image
+.alt defines the alter name
+.width
+.height 
